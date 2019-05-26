@@ -1,0 +1,591 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html,body{
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  /*background-color:#eee;*/
+  background-color:#fff;
+
+}
+
+
+/*--- for a sticky footer---*/
+
+body{
+  display: flex;
+  flex-direction: column;
+
+}
+#content-wrapper{
+  flex: 1 0 auto;
+}
+footer{
+  flex-shrink: 0;
+}
+
+/*---Header---*/
+
+ .bg-dark{
+   background-color: #23415c !important;
+ }
+ .header-brand img{
+    width:40px; 
+    height:40px;
+ }
+
+ 
+
+ #brand-name{
+  font-family: 'Yesteryear', cursive;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #fff;
+  line-height:40px;
+  margin-left:15px;
+ }
+
+.navbar-nav li{
+  margin-right: 20px;
+}
+.nav-link{
+  font-size: 1rem !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color:#ccc;
+}
+
+.bg-dark .navbar-nav li a:hover{
+  color:#FFF !important;
+}
+
+.active{
+  color:#FFF !important;
+  /*border-bottom: 2px solid #fff;*/
+  font-weight:700;
+}
+
+/*---Banner---*/
+  .index-banner{
+      
+      width: 100%;
+      height: 450px;
+      background-image: url('assets/img/pills.jpeg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      display: table;
+  }
+
+  .products-banner{
+      
+    width: 100%;
+    height: 300px;
+    background-image: url('assets/img/tablets_banner.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+   }
+  
+   .profile-banner{
+      
+    width: 100%;
+    height: 300px;
+    background-image: url('assets/img/medication.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+  }
+  .careers-banner{
+      
+    width: 100%;
+    height: 300px;
+    background-image: url('assets/img/careers.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+}
+
+  .vertical-center{
+    display: table-cell;
+    vertical-align: middle;
+   }
+   
+  section .vertical-center h2{
+    font-family: 'Yesteryear', cursive;
+    font-size: 80px;
+    line-height: 100px;
+    font-weight: 400;
+    color:#007faf;
+    /*color:#c94a38;*/
+    text-align: center;
+    text-shadow: 2px 2px 8px #111;
+    margin-bottom:0 !important;
+  }
+
+  section .vertical-center h1{
+    font-size: 30px;
+    font-weight: 300;
+    /*font-style: italic;*/
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 8px #111;
+    margin-bottom:0 !important;
+  }
+
+  .vertical-center-inner-page{
+    display: table-cell;
+    vertical-align: middle;
+   }
+
+  section .vertical-center-inner-page h2{
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 70px;
+    text-align: center;
+    text-shadow: 2px 2px 8px #111;
+    margin-bottom:0 !important;
+  }
+
+ /*---Container---*/
+
+ .content-section{
+  padding-top:2.5rem;
+  padding-bottom:2.5rem;
+ }
+/*
+ .container-style-round{
+  background-color: #fff;
+  width:70%;
+  margin-left:auto;
+  margin-right:auto;
+  padding-left:50px;
+  padding-right:50px;
+  padding-bottom:2rem;
+  padding-top:1rem;
+ 
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px  #111;
+}*/
+
+
+  .container-style-round{
+    background-color: #fff;
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:50px;
+    padding-right:50px;
+    padding-bottom:2rem;
+    border-left:1px solid #b4b4b4;
+    border-right:1px solid #b4b4b4;
+    border-bottom:1px solid #b4b4b4;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+ 
+  .heading-size{
+    font-size: 2rem;
+    font-weight: 300;
+  }
+  .heading-size-second{
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+
+  
+  .padding-15{
+     padding-left:15px;
+     padding-right:15px;
+  }
+
+  .welcome{
+    width:75%;
+    margin: 0 auto;
+    padding-top: 1rem;
+  }
+  .welcome hr{
+    border-top:2px solid #b4b4b4;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+  }
+
+  .my-paragraph{
+    font-size: 1rem;
+    font-weight: 100;
+    line-height: 30px;
+    text-indent: 30px;
+    margin-bottom:1rem;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  .underline{
+    border-top:2px solid #b4b4b4;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+  }
+
+  
+  .align-center{
+    margin: 1rem auto;
+  }
+
+  /*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 150px;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#fixed-new {
+  background-image: url('assets/img/plant-medicine.jpeg');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+
+/*---Carousel Section ---*/
+
+.carousel-container{
+  padding:0 5px 20px 5px;
+   border-radius:20px; 
+   border:1px dotted #222; 
+   margin-top:1rem;
+}
+.img-1{
+  /*height:130px;*/
+   border-radius: 5px;
+}
+
+
+  .my-custom-button{
+    display:block;
+    width:130px;
+    /*Note: many elements are not block. you have to
+    convert them to block and give a width to center them*/
+    margin:0 auto;
+    color: #23415c;
+    border-color: #23415c;
+  }
+
+  .my-custom-button:hover{
+    color:#fff;
+    border-color: #23415c;
+    background-color: #23415c;
+  }
+  .change-background{
+    background-color:#fff;
+  }
+
+  
+  .tablet-name{
+    font-size: 1.2rem;
+    font-weight:250;
+    line-height:30px;
+    text-align: justify;
+    text-justify: inter-word;
+
+  }
+
+  /*---footer---*/
+  footer{
+    background-color: #23415c;
+    color: #fff;
+    padding-top: 1rem;
+    padding-bottom:1rem;
+  }
+  hr.light{
+    border-top: 1px solid #fff;
+    width: 75%;
+    display: block;
+    margin: .8rem auto;
+  }
+  hr.light-100{
+    border-top: 1px solid #fff;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+  }
+  #heilent-logo-footer{
+    height:30px;
+    width:30px;
+  }
+  #heilent-text-footer{
+    font-family: 'Yesteryear', cursive;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #fff;
+    line-height:40px;
+    margin-left:15px;
+  }
+
+  footer div p a{
+    color: #fff;
+  }
+  footer div p a:hover{
+    color: #fff;
+  }
+
+  .hidden-text{
+    visibility: hidden;
+  }
+
+  .result{
+    margin-bottom: .5rem;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    font-size: 1.2rem;
+    font-weight:250; 
+  }
+  .error{
+    color:red;
+  }
+
+  .hr-end{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width:100%;
+  }
+  /*---Products---*/
+  .compositions, .strength, .imgPath{
+    visibility:hidden;
+    height:0;
+  }
+  .image-underline{
+    display:block;
+    width:90%;
+    margin:0 auto !important;
+  }
+  #modal-img{
+    display:block; 
+    margin:20px auto; 
+   /* width:100%;
+    height:300px; */
+    border-radius:10px;
+  }
+  #modal-adjust-padding{
+    padding:0 40px;
+  }
+  #modal-adjust-padding p{
+     margin-bottom:0.5rem;
+  }
+
+  /*--for buttons in product.php, single_product.php, admin.php--*/
+  .button-size-100{
+    width:100px;
+  }
+
+  .button-change-color{
+    background-color: #23415c;
+    border-color: #23415c;
+  }
+  .button-change-color:hover{
+    background-color: #325c80;
+    border-color: #325c80;
+   }
+
+
+  /*--- for careers.html---*/
+
+  .careers-contact{
+    margin-top:30px;
+    margin-bottom:20px;
+  }
+
+  .careers-contact button{
+   width:100%;
+   background-color: #23415c;
+   color: #FFF;
+  }
+  .dropdown-content{
+    width:100%;
+    font-size:1.1rem;
+  }
+  .careers-contact button:hover{
+    color: #ccc;
+   }
+
+  /*---contact_us.html---*/
+
+  .center-address{
+    margin:0 auto;
+  }
+
+ 
+
+  @media screen and (max-width: 1140px) { 
+
+    .container-style-round{
+       width:75%;
+      
+     
+    }
+  }
+ 
+@media screen and (max-width: 992px) { 
+   
+  .container-style-round{
+    padding-left:45px;
+    padding-right:45px;
+  
+ }
+  .index-banner{
+    height:400px;
+  }
+
+  .products-banner ,.profile-banner , .careers-banner{
+      
+    height:280px;
+   }
+
+   section .vertical-center-inner-page h2{
+    font-size: 55px;
+    line-height: 65px;
+  
+  }
+
+  section .vertical-center h2{
+    font-size: 70px;
+    line-height: 90px;
+  }
+  section .vertical-center h1{
+    font-size: 26px;
+    line-height: 36px;
+  }
+
+}
+
+
+@media screen and (max-width: 768px) { 
+  .container-style-round{
+    width:80%;
+    padding-left:30px;
+    padding-right:30px;
+  
+ }
+  
+ .navbar-nav li{
+  margin-right: 0;
+  padding-left:20px; 
+}
+  
+
+  .index-banner{
+    height:280px;
+  }
+
+  .products-banner ,.profile-banner , .careers-banner{
+       height:250px;
+   }
+  
+   section .vertical-center-inner-page h2{
+    font-size: 50px;
+    line-height: 60px;
+  
+  }
+
+  section .vertical-center h2{
+    font-size: 60px;
+    line-height: 75px;
+  }
+
+  section .vertical-center h1{
+    font-size: 22px;
+    line-height: 32px;
+  }
+  .display-size{
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+  .display-size-second{
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+
+  
+  #modal-img{
+   
+  /*  width:100%;
+    height:300px; */
+    border-radius:8px;
+  }
+
+ }
+
+
+@media screen and (max-width: 576px) {
+
+.container-style-round{
+  width:90%;
+  padding-left:15px;
+  padding-right:15px;
+
+}
+  
+
+  .index-banner, .products-banner ,.profile-banner , .careers-banner{
+       height:220px;
+   }
+  section .vertical-center h2{
+    font-size: 50px;
+    line-height: 62px;
+  
+  }
+  section .vertical-center h1{
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  section .vertical-center-inner-page h2{
+    font-size: 45px;
+    line-height: 52px;
+  }
+
+  #modal-adjust-padding{
+    padding:0 20px;
+  }
+  
+  #modal-img{
+   
+   /* width:100%;
+    height:250px; */
+    border-radius:5px;
+  }
+
+
+}
+
