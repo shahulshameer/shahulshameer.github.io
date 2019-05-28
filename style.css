@@ -37,20 +37,10 @@ footer{
    background-color: #23415c !important;
  }
  .header-brand img{
-    width:40px; 
+    width:142px; 
     height:40px;
  }
 
- 
-
- #brand-name{
-  font-family: 'Yesteryear', cursive;
-  font-size: 2rem;
-  font-weight: 400;
-  color: #fff;
-  line-height:40px;
-  margin-left:15px;
- }
 
 .navbar-nav li{
   margin-right: 20px;
@@ -340,17 +330,11 @@ figure {
     margin-bottom: 1rem;
   }
   #heilent-logo-footer{
-    height:30px;
-    width:30px;
+    width:100px;
+    display: block;
+    margin:0 auto;
   }
-  #heilent-text-footer{
-    font-family: 'Yesteryear', cursive;
-    font-size: 2rem;
-    font-weight: 400;
-    color: #fff;
-    line-height:40px;
-    margin-left:15px;
-  }
+  
 
   footer div p a{
     color: #fff;
