@@ -412,15 +412,19 @@ figure {
 
   .careers-contact button{
    width:100%;
-   background-color: #23415c;
    color: #FFF;
-  }
+   background-color: #23415c;
+   border-color: #23415c;
+   }
+
   .dropdown-content{
     width:100%;
     font-size:1.1rem;
   }
   .careers-contact button:hover{
-    color: #ccc;
+    color: #FFF;
+    background-color: #325c80;
+    border-color: #325c80;
    }
 
   /*---contact_us.html---*/
