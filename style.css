@@ -271,9 +271,9 @@ figure {
 
 .carousel-container{
   padding:0 5px 20px 5px;
-   border-radius:20px; 
-   border:1px dotted #222; 
-   margin-top:1rem;
+  border-top:1px dotted #222; 
+  border-bottom:1px dotted #222;
+   margin-top:2rem;
 }
 .img-1{
   /*height:130px;*/
